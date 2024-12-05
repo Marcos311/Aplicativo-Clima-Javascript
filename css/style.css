@@ -1,0 +1,166 @@
+body {
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+/*container */
+#container {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    justify-content: space-between;
+    margin : 0 0;
+    background-color: #48484A;
+    height: 80px;
+}
+
+#logo-search {
+    display: flex;
+}
+
+#logo i{
+    color : #fff;
+    margin-left: 40px;
+    margin-right: 45px;
+    font-size: 25px;
+    color : #EB6E4B;
+}
+
+#search i {
+    color : #fff;
+}
+
+#search input {
+    border : none;
+    background-color: #48484A;
+    outline: none;
+    font-size: 14px;
+}
+
+#search input:focus {
+    color : #fff;
+}
+
+#search input:hover {
+    border-bottom: 1px solid #fff;
+}
+
+#navbar-input {
+    width: 140px;
+    height: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap : 15px;
+    margin-right: 40px;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    color : #fff;
+    font-size: 20px;
+}
+
+/* banner-img */
+#banner-img img {
+    /* object-fit: contain;
+    width: 100%;
+    max-width: 100%;
+    height: auto; */
+    height: 400px;
+    width: 1366px;
+    margin: 0 0;
+}
+
+/* main */
+#main {
+    background-color: #F2F2F2;
+    height: auto;
+    padding-top: 30px;
+}
+
+#main-search {
+    background-color: #F2F2F2;
+    margin-bottom: 20px;
+}
+
+#main input{
+    margin-left : 70px;
+    height: 30px;
+    border-radius: 10px 0 0px 10px;
+    width: 500px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+
+}
+
+#main button {
+    background-color: #48484A;
+    color: #fff;
+    margin-left: -5px;
+    height: 40px;
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 0px 10px 10px 0px;
+    border : none;
+    font-size: 16px;
+}
+
+#main button:hover{
+    background-color: rgba(72, 72, 74, 0.8);
+}
+
+#weather-info {
+    background-color: #fff;
+    margin-left: 70px;
+    width : 520px;
+}
+
+#additional-info {
+ 
+    background-color: #fff;
+    color : #000;
+}
+
+#city-banner {
+    padding: 20px 0 0 70px;
+    background-color: #fff;
+}
+
+.data {
+    color : #EB6E4B;
+}
+
+.localizacao {
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+#city-banner-info {
+    display: flex;
+}
+
+#city-banner-info-img {
+    display: flex;
+    align-items: center;
+}
+
+#icon-logo {
+    font-size: 20px;
+}
+
+.linha-laranja {
+    width: 1px;
+    height: 70px;
+    background-color: #EB6E4B;
+    margin-right: 10px;
+}
+
+/* #main input:not(:focus){
+    background-color: #EB6E4B;
+} */

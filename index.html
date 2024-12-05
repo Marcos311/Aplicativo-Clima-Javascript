@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header id="container">
+        <div id="logo-search">
+            <div id="logo">
+                <i class="fas fa-cloud"></i>
+            </div>
+            <div id="search">
+                <i id="icone-busca" class="fas fa-search"></i><input id="navbar-input" type="text" placeholder="Clima na sua cidade">
+            </div>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <section id="banner-img">
+        <img src="img/verao2.jpg" alt="Praia">
+    </section>
+
+    <section id="main">
+        <div id="main-search">
+            <input id="city" type="text" placeholder="Procure a cidade">
+            <button onclick="getWeather()">Pesquisar</button>
+            <div class="weather-info" id="weather-info"></div>
+            <div class="additional-info" id="additional-info"></div>
+        </div>
+
+        <div id="city-banner">
+            <p id="data" class="data">Dec 2, 05:58pm</p>
+            <p id="localizacao" class="localizacao"><strong>Guarulhos, BR</strong></p>
+            <div id="city-banner-info-img">
+                <img id="icon-logo" src="">
+                <p id="feelsLike"></p>
+            </div>
+            <div id="city-banner-info">
+                <div class="linha-laranja"></div>
+                <div>
+                    <p id="weatherDescription">Descrição : Nublado</p>
+                    <div style="display: flex; gap:5px">
+                        <i class="fas fa-cloud-showers-heavy" style="font-size: 20px;"></i>
+                        <p id="rain"></p>
+                        <i class="fas fa-wind" style="font-size: 20px;"></i>
+                        <p id="wind"></p>
+                    </div>
+                    <div style="display: flex; gap:5px">
+                        <i class="fas fa-tachometer-alt" style="font-size: 20px;"></i>
+                        <p id="pressure"></p>
+                        <p id="humidity"></p>
+                    </div>
+                    <div style="display: flex; gap:5px">
+                        <p id="dewPoint"></p>
+                        <p id="visibility"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
